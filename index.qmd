@@ -47,7 +47,7 @@ Microeconometria - IBMEC-Brasília
 
 Applied econometric methods for social scientists. Topics include OLS, instrumental variables, difference-in-differences, regression discontinuity, and panel data models, with an emphasis on causal inference and empirical applications to Brazilian data.
 
-[Visit course site →](https://ibm0288.raphaelgouvea.com){.course-btn}
+[Visit course site →](https://www.ibm0288.raphaelgouvea.com){.course-btn}
 :::
 
 
