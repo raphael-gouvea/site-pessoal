@@ -1,0 +1,75 @@
+---
+title: "Raphael R. Gouvea — CV"
+toc: false
+format:
+  html:
+    format-links: false
+  pdf:
+    documentclass: article
+    geometry: margin=1in
+    fontsize: 11pt
+    colorlinks: true
+---
+
+::: {.content-visible when-format="html"}
+[← Back](index.html) &nbsp;&nbsp; [Download PDF](cv.pdf)
+:::
+
+---
+
+**Director** — Dept. of Bioindustry, Secretariat for Green Economy\
+**Professor** — Applied Econometrics, IBMEC-Brasília\
+**Researcher** — IPEA (on leave)
+
+---
+
+## Education
+
+**Ph.D. in Economics** — University of Massachusetts Amherst\
+**M.A. in Economics** — University of Massachusetts Amherst\
+**M.A. in Economics** — University of São Paulo\
+**B.A. in Economics** — Federal University of Minas Gerais
+
+---
+
+## Research Interests
+
+Fiscal policy; macroeconomics and trade; inequality; applied econometrics.
+
+---
+
+## Publications
+
+### Peer-Reviewed
+
+Gouvea, R. R. (2022). Large devaluations and inflation inequality: replicating Cravino and Levchenko (2017) with evidence from Brazil. *Journal of Applied Econometrics*, 37(3), 657–664. <https://doi.org/10.1002/jae.2880>
+
+Gouvea, R. R., & Girardi, D. (2021). Partisanship and local fiscal policy: evidence from Brazilian cities. *Journal of Development Economics*, 150. <https://doi.org/10.1016/j.jdeveco.2021.102637>
+
+Gouvea, R. R., Schettini, B., & Sachsida, A. (2015). Inflação, desemprego e choques cambiais: estimativas VAR para a economia brasileira. *Análise Econômica*, 35(67), 297–322. <https://doi.org/10.22456/2176-5456.57948>
+
+Gouvea, R. R., & Schettini, B. (2015). Empirical estimates for the Brazilian total imports equation using quarterly national accounts data (1996–2010). *EconomiA*, 16(2), 250–271. <https://doi.org/10.1016/j.econ.2015.06.001>
+
+Gouvea, R. R., & Lima, G. T. (2013). Balance-of-payments-constrained growth in a multisectoral framework: a panel data investigation. *Journal of Economic Studies*, 40(2), 240–254. <https://doi.org/10.1108/01443581311283691>
+
+Gouvea, R. R., & Lima, G. T. (2013). Mudança estrutural e crescimento sob restrição externa na economia brasileira. *Economia e Sociedade*, 22(1), 107–149. <https://doi.org/10.1590/S0104-06182013000100004>
+
+Gouvea, R. R., & Lima, G. T. (2010). Structural change, balance-of-payments constraint, and economic growth: evidence from the multisectoral Thirlwall's Law. *Journal of Post Keynesian Economics*, 33(1). <https://doi.org/10.2753/PKE0160-3477330109>
+
+### Other Publications
+
+Gouvea, R. R., Orair, R., & Cláudio, S. (2014). A dinâmica recente dos gastos públicos brasileiros (I): o consumo do governo. In S. Cláudio & R. R. Gouvêa (Eds.), *Finanças Públicas e Macroeconomia no Brasil: Um Registro da Reflexão do Ipea (2008–2014)* (pp. 57–68). IPEA.
+
+Gouvea, R. R., & Cláudio, S. (2014). Finanças públicas e macroeconomia no Brasil: a lógica da reflexão do Ipea no período 2008–2014. In S. Cláudio & R. R. Gouvêa (Eds.), *Finanças Públicas e Macroeconomia no Brasil* (pp. 11–24). IPEA.
+
+Gouvea, R. R., & Schettini, B. (2011). Resultado fiscal estrutural: um passo para institucionalização de políticas anticíclicas no Brasil. In *XV Prêmio Tesouro Nacional — 2010*. Secretaria do Tesouro Nacional.
+
+Gouvea, R. R., Carvalho, V., & Lima, G. T. (2011). Restrição externa ao crescimento econômico de longo prazo: a experiência brasileira. In P. Duarte, S. Silber & J. Guilhoto (Eds.), *O Brasil e a Ciência Econômica em Debate*, Vol. 2. Saraiva.
+
+---
+
+## Teaching
+
+**IBM0288 — Microeconometria**, IBMEC-Brasília
+
+Applied econometric methods for social scientists: OLS, instrumental variables, difference-in-differences, regression discontinuity, and panel data models.

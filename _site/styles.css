@@ -1,0 +1,298 @@
+/* styles.css */
+/* IBMEC palette: gold #F5AC00 | navy #1245FF | blue #1245FF */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+/* Reduce outer page margins by collapsing Quarto's page grid gutters */
+body.fullcontent:not(.floating):not(.docked) .page-columns {
+  grid-template-columns:
+    [screen-start] 15rem
+    [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start]
+    1fr
+    [body-content-end body-end body-end-outset page-end-inset page-end screen-end-inset]
+    15rem [screen-end] !important;
+}
+
+/* Column layout: target the actual trestles flex container */
+div.quarto-about-trestles {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+div.quarto-about-trestles .about-entity {
+  flex: 0 0 30% !important;
+  border-right: none !important;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+div.quarto-about-trestles .about-contents {
+  flex: 0 0 70% !important;
+  border-left: none !important;
+  min-height: 100vh;
+  padding-left: 1.5rem;
+}
+
+/* All links: bright blue, gold on hover */
+a {
+  color: #1245FF;
+}
+
+a:hover {
+  color: #F5AC00;
+}
+
+/* Icon/button links in the sidebar */
+.about-links a,
+.about-links .btn {
+  color: #1245FF !important;
+  border-color: #1245FF !important;
+}
+
+.about-links a:hover,
+.about-links .btn:hover,
+.about-links .btn:hover i,
+.about-links .btn:hover .bi {
+  color: #1245FF !important;
+  border-color: #1245FF !important;
+  background-color: #F5AC00 !important;
+}
+
+/* Sticky navbar inside right column only */
+.right-col-nav {
+  position: sticky !important;
+  top: 0 !important;
+  background: #ffffff;
+  padding: 0.75rem 0;
+  z-index: 1000;
+  display: flex;
+  gap: 3rem;
+  font-size: 1.1rem;
+}
+
+.right-col-nav a {
+  color: #1245FF !important;
+  font-weight: 300;
+  text-decoration: none;
+  border: 1px solid #1245FF;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.right-col-nav a:hover {
+  color: #1245FF !important;
+  background-color: #F5AC00 !important;
+  border-color: #1245FF !important;
+}
+
+/* Work details injected between image and links */
+.about-work-details {
+  font-size: 0.82rem;
+  color: #444;
+  margin: 1rem 0;
+  line-height: 1.7;
+}
+
+.about-work-details p {
+  margin: 0.2rem 0;
+}
+
+/* Gold border under each section title */
+.about-contents section {
+  margin-bottom: 1.5rem;
+  scroll-margin-top: 5rem;
+}
+
+.about-contents section h2 {
+  border-bottom: 1px solid #F5AC00 !important;
+  padding-bottom: 0.4rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Headings in dark navy */
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+}
+
+h1 { font-size: 1.6rem; }
+h2 { font-size: 1.2rem; }
+h3 { font-size: 1rem; }
+
+/* Course card */
+.course-card {
+  margin-bottom: 1.5rem;
+}
+
+.course-badge {
+  display: inline-block;
+  padding: 0.25rem 0.85rem;
+  border: 1px solid #1245FF;
+  border-radius: 0.25rem;
+  font-size: 0.88rem;
+  color: #1245FF;
+  font-weight: 500;
+  white-space: nowrap;
+  background-color: #F5AC00;
+}
+
+.course-content {
+  flex: 1;
+}
+
+.course-code {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.course-btn {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.25rem 0.85rem;
+  border: 1px solid #1245FF;
+  border-radius: 0.25rem;
+  font-size: 0.88rem;
+  color: #1245FF !important;
+  text-decoration: none !important;
+}
+
+.course-btn:hover {
+  background-color: #F5AC00 !important;
+  border-color: #1245FF !important;
+  color: #1245FF !important;
+}
+
+/* Publication entries */
+.pub-entry {
+  margin-bottom: 1.5rem;
+}
+
+.pub-title {
+  font-weight: 500;
+  margin-bottom: 0.15rem;
+}
+
+.pub-meta {
+  font-size: 0.88rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.pub-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin-top: 0.3rem;
+  font-size: 0.88rem;
+}
+
+.pub-actions span {
+  color: #1245FF;
+}
+
+.pub-entry details summary {
+  font-size: 0.88rem;
+  color: #1245FF;
+  cursor: pointer;
+  list-style: none;
+  display: inline;
+}
+
+.pub-entry details summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-entry details p {
+  font-size: 0.88rem;
+  color: #444;
+  margin-top: 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid #F5AC00;
+}
+
+/* Policy listing */
+.quarto-listing-default .list-group-item {
+  border: none !important;
+  border-bottom: 1px solid #F5AC00 !important;
+  padding: 1.25rem 0 !important;
+  background: transparent !important;
+}
+
+.quarto-listing-default .listing-date {
+  font-size: 0.8rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.quarto-listing-default .listing-title a {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+.quarto-listing-default .listing-title a:hover {
+  color: #1245FF !important;
+}
+
+.quarto-listing-default .listing-description {
+  font-size: 0.88rem;
+  color: #444;
+  margin-top: 0.25rem;
+}
+
+.quarto-listing-default .listing-category {
+  font-size: 0.78rem;
+  color: #1245FF !important;
+  border: 1px solid #1245FF !important;
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.5rem;
+  background: transparent !important;
+  margin-top: 0.4rem;
+}
+
+.quarto-listing-default .listing-category:hover {
+  background: #F5AC00 !important;
+  border-color: #1245FF !important;
+}
+
+/* Bio page profile photo */
+.bio-photo {
+  float: right;
+  width: 260px;
+  margin: 0 0 1.5rem 2.5rem;
+  border-radius: 4px;
+}
+
+/* Collapse sticky behavior on mobile */
+@media (max-width: 768px) {
+  .about {
+    grid-template-columns: 1fr !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  .about-entity {
+    position: relative;
+    height: auto;
+    top: auto;
+  }
+}

@@ -1,0 +1,10 @@
+---
+title: "Pé-de-Meia: High School Retention Programme"
+date: 2021-01-01
+description: "Contributed to the design of a conditional cash transfer programme targeting high school dropout, one of Brazil's most pressing education challenges."
+categories: [Education, Social Policy]
+---
+
+Pé-de-Meia is a conditional cash transfer programme designed to reduce high school dropout rates by providing financial incentives tied to student attendance and progression.
+
+As part of Congresswoman Tabata Amaral's team, I contributed to the economic design and legislative strategy for the programme, including analysis of targeting criteria, benefit levels, and projected impacts on completion rates. The programme was subsequently adopted by the federal government and scaled nationally.

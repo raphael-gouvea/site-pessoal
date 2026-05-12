@@ -1,0 +1,216 @@
+---
+title: "Raphael Gouvea"
+toc: false
+about:
+  template: trestles
+  image: img/perfil_2.jpeg
+  image-width: 15em
+  image-shape: rounded
+  links:
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app
+    - icon: github
+      text: Github
+      href: https://github.com
+    - icon: file-text
+      text: CV
+      href: cv.html
+---
+
+::: {.right-col-nav}
+[Bio](#bio) [Teaching](#teaching) [Publications](#publications)
+:::
+
+## Bio
+
+I am an applied economist driven by a strong interest in understanding how rigorous empirical analysis can inform and improve public policy. My career has moved across academia, legislative advising, and executive roles in the Brazilian federal government, always with the goal of turning evidence into decisions that have real impact on institutions and people’s lives. [Read more.](bio.qmd)
+
+Ph.D. and M.A. in Economics, University of Massachusetts Amherst; M.A. in Economics, University of São Paulo; B.A. in Economics, Federal University of Minas Gerais.
+
+<!-- ## Research -->
+
+<!-- * **Fiscal policy**: fiscal impulse, structural balance, public transfers, and subnational fiscal behavior -->
+<!-- * **Macroeconomics and trade**: balance-of-payments-constrained growth, export and import functions, structural change in the Brazilian economy -->
+<!-- * **Inequality**: inflation inequality, distributional effects of exchange rate shocks -->
+<!-- * **Applied econometrics**: VAR models, panel data methods, replication studies -->
+
+## Teaching
+
+::: {.course-card}
+<span class="course-badge">IBM0288</span>
+
+::: {.course-code}
+Microeconometria - IBMEC-Brasília
+:::
+
+
+Applied econometric methods for social scientists. Topics include OLS, instrumental variables, difference-in-differences, regression discontinuity, and panel data models, with an emphasis on causal inference and empirical applications to Brazilian data.
+
+[Visit course site →](https://ibm0288.raphaelgouvea.com){.course-btn}
+:::
+
+
+## Publications
+
+### Peer-Reviewed Publications
+
+::: {.pub-entry}
+::: {.pub-title}
+Large devaluations and inflation inequality: replicating Cravino and Levchenko (2017) with evidence from Brazil.
+:::
+::: {.pub-meta}
+*Journal of Applied Econometrics*, vol. 37, issue 3, p. 657–664, 2022.
+:::
+::: {.pub-actions}
+<details><summary>▸ Abstract</summary><p>In the aftermath of large devaluations, prices of tradable goods/lower-priced varieties increase significantly more than the prices of nontradables/higher-priced varieties. These relative price changes may lead to inflation inequality when household consumption baskets are different across the distribution of income. Using Cravino and Levchenko's (2017) methodology, we show that inflation of poor households in Brazil was at least 11 percentage points higher than that of the rich in the aftermath of the 2002 large devaluation. A detailed case study of the City of São Paulo estimates an inflation inequality ranging from 8 to 11 percentage points in the city.</p></details>
+<details><summary>▸ Presentations</summary><p>[Presentations to be added.]</p></details>
+<span>[[Paper](https://doi.org/10.1002/jae.2880)]</span>
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
+Partisanship and local fiscal policy: evidence from Brazilian cities.
+:::
+::: {.pub-meta}
+with **Daniele Girardi**. *Journal of Development Economics*, vol. 150, May 2021.
+:::
+::: {.pub-actions}
+<details><summary>▸ Abstract</summary><p>We study the role of political parties in shaping local fiscal policy in the context of Brazilian cities in the 2004–2016 period. Using a regression-discontinuity design, we find no effect of left-wing mayors on the size of the city government nor on the allocation of spending across main budget categories (current spending, investment and personnel). We do find a modest, significant and robust positive effect on the share of social expenditures. The (close) election of a left-wing mayor tends to raise the share of social expenditures by around 0.6 percentage points in our preferred RD specification. We then explore possible mechanisms which could bring about substantial fiscal policy convergence between political parties in Brazilian cities. We exploit oil-related revenue windfalls to explore the role of institutional constraints, and build an index of Tiebout competition to measure the role of the latter. We find support for the institutional constraints hypothesis in explaining the limited extent of spending allocation effects, and little support for the Tiebout-competition hypothesis.</p></details>
+<details><summary>▸ Presentations</summary><p>[Presentations to be added.]</p></details>
+<span>[[Paper](https://doi.org/10.1016/j.jdeveco.2021.102637)]</span>
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
+Inflação, desemprego e choques cambiais: estimativas VAR para a economia brasileira.
+:::
+::: {.pub-meta}
+with **Bernardo Schettini** and **Adolfo Sachsida**. *Análise Econômica*, 35(67), p. 297–322, 2015.
+:::
+::: {.pub-actions}
+<details><summary>▸ Abstract</summary><p>Este artigo estima um modelo de vetores autorregressivos (VAR) representando a curva de Phillips novo keynesiana com choques cambiais. A taxa de desemprego da Pesquisa Mensal de Emprego (PME) do IBGE é a proxy para o custo marginal, a inflação é medida pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA) e as expectativas foram obtidas do boletim Focus do Banco Central do Brasil. Os resultados indicam que: a) o pass-through cambial é de cerca de 0,04 p.p. na inflação do mês seguinte ao choque de R$ 0,01 no preço do dólar, mas esse efeito é insignificante; b) um choque médio na taxa de desemprego demora ao redor de 18 meses para desaparecer; c) uma inovação de 0,06 p.p. na expectativa de inflação é carregada para a inflação, que atinge um máximo de 0,05 p.p. no mês seguinte ao choque; e d) choques na série de inflação não afetam a taxa de desemprego, isto é, mais inflação não reduz o desemprego.</p></details>
+<details><summary>▸ Presentations</summary><p>[Presentations to be added.]</p></details>
+<span>[[Paper](https://doi.org/10.22456/2176-5456.57948)]</span>
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
+Empirical estimates for the Brazilian total imports equation using quarterly national accounts data (1996–2010).
+:::
+::: {.pub-meta}
+with **Bernardo Schettini**. *EconomiA*, 16(2), 250–271, 2015.
+:::
+::: {.pub-actions}
+<details><summary>▸ Abstract</summary><p>This paper presents econometric estimates for the Brazilian aggregate imports over the period 1996–2010 using quarterly national accounts data. We examine both a canonical demand equation and an alternative model exploring co-movements among total imports, gross fixed capital formation, and household consumption. Domestic income is found to be the main determinant of total imports. The analysis reveals evidence of nonlinearities in the import-income relationship. When evaluating predictive capacity, the alternative models demonstrate solid long-run performance, while the canonical model's error correction representations achieve superior out-of-sample forecasting results.</p></details>
+<details><summary>▸ Presentations</summary><p>[Presentations to be added.]</p></details>
+<span>[[Paper](https://doi.org/10.1016/j.econ.2015.06.001)]</span>
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
+Balance-of-payments-constrained growth in a multisectoral framework: a panel data investigation.
+:::
+::: {.pub-meta}
+with **Gilberto Lima**. *Journal of Economics Studies*, 40(2), 240–254, 2013.
+:::
+::: {.pub-actions}
+<details><summary>▸ Abstract</summary><p>The aim of this paper is to contribute to the literature on balance-of-payments-constrained growth by providing an innovative empirical evaluation of a disaggregated version of Thirlwall's Law derived from a Pasinettian multisectoral framework. Sectoral trade elasticities are estimated for 90 countries over 1965–1999 using panel data econometric techniques. Countries are grouped by income level and the multisectoral model is tested against actual growth outcomes using prediction errors and regression validity tests. The findings give support to the validity of the multisectoral version of Thirlwall's Law, with implications for understanding structural determinants of uneven international development and for the design of growth-oriented structural change policies.</p></details>
+<details><summary>▸ Presentations</summary><p>[Presentations to be added.]</p></details>
+<span>[[Paper](https://doi.org/10.1108/01443581311283691)]</span>
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
+Mudança estrutural e crescimento sob restrição externa na economia brasileira.
+:::
+::: {.pub-meta}
+with **Gilberto Lima**. *Economia e Sociedade*, 22(1), 107–149, 2013.
+:::
+::: {.pub-actions}
+<details><summary>▸ Abstract</summary><p>By exploring the implications of the Multi-Sector Thirlwall's Law, this paper reports empirical exercises that contribute to an understanding of the relationship between structural change, external constraint and economic growth in Brazil in the 1962–2006 period. The results were used to evaluate each sector's contribution to the evolution of the weighted income elasticities of exports and imports during the period. These findings provide additional support to the existing debate about the external adjustment promoted between 1974 and 1984. The results suggest that Castro's (1985) interpretation has empirical support, even if evaluated using a different metric. However, the results also support Fishlow's (1986) qualification that the improvement in the trade balance in 1983–1984 was due to a greater extent to the behavior of exports than to the behavior of imports.</p></details>
+<details><summary>▸ Presentations</summary><p>[Presentations to be added.]</p></details>
+<span>[[Paper](https://doi.org/10.1590/S0104-06182013000100004)]</span>
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
+Structural Change, Balance-of-Payments Constraint, and Economic Growth: evidence from the Multisectoral Thirlwall’s Law.
+:::
+::: {.pub-meta}
+with **Gilberto Lima**. *Journal of Post Keynesian Economics*, 33(1), 2010.
+:::
+::: {.pub-actions}
+<details><summary>▸ Abstract</summary><p>This paper contributes to the literature on balance-of-payments constrained growth by investigating how structural change, identified with changes in the sectoral composition of exports and imports, affects the external constraint. Both the original and a multisectoral version of Thirlwall’s law are tested for a sample of Latin American and Asian countries. The original law holds for all countries except South Korea, while the multisectoral version holds for all countries in the sample. The results suggest that variations in the sectoral composition of trade have been a significant determinant of growth differentials across countries.</p></details>
+<details><summary>▸ Presentations</summary><p>[Presentations to be added.]</p></details>
+<span>[[Paper](https://doi.org/10.2753/PKE0160-3477330109)]</span>
+:::
+:::
+
+### Other Publications
+
+::: {.pub-entry}
+::: {.pub-title}
+A dinâmica recente dos gastos públicos brasileiros (I): o consumo do governo.
+:::
+::: {.pub-meta}
+with **Rodrigo Orair** and **Sandro Cláudio**. In S. Cláudio & R. R. Gouvêa (Eds.), *Finanças Públicas e Macroeconomia no Brasil: Um Registro da Reflexão do Ipea (2008–2014)* (pp. 57–68). IPEA, 2014.
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
+Finanças públicas e macroeconomia no Brasil: a lógica da reflexão do Ipea no período 2008–2014.
+:::
+::: {.pub-meta}
+with **Sandro Cláudio**. In S. Cláudio & R. R. Gouvêa (Eds.), *Finanças Públicas e Macroeconomia no Brasil: Um Registro da Reflexão do Ipea (2008–2014)* (pp. 11–24). IPEA, 2014.
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
+Resultado fiscal estrutural: um passo para institucionalização de políticas anticíclicas no Brasil.
+:::
+::: {.pub-meta}
+with **Bernardo Schettini**. In *XV Prêmio Tesouro Nacional — 2010: Homenagem a Joaquim Nabuco*. Secretaria do Tesouro Nacional, 2011.
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
+Restrição externa ao crescimento econômico de longo prazo: a experiência brasileira.
+:::
+::: {.pub-meta}
+with **Vinicius Carvalho** and **Gilberto Lima**. In P. Duarte, S. Silber & J. Guilhoto (Eds.), *O Brasil e a Ciência Econômica em Debate: O Estado da Arte em Economia — Volume 2* (pp. 1–24). Saraiva, 2011.
+:::
+:::
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const entity = document.querySelector('.about-entity');
+  const image = entity.querySelector('img.about-image');
+  const titleBlock = entity.querySelector('#title-block-header');
+  const links = entity.querySelector('.about-links');
+
+  // Move name above image
+  entity.insertBefore(titleBlock, image);
+
+  // Insert work details between image and links
+  const details = document.createElement('div');
+  details.className = 'about-work-details';
+  details.innerHTML = `
+    <p><strong>Director</strong> — Dept. of Bioindustry, Secretariat for Green Economy</p>
+    <p><strong>Professor</strong> — Applied Econometrics, IBMEC-Brasília</p>
+    <p><strong>Researcher</strong> — IPEA (on leave)</p>
+  `;
+  entity.insertBefore(details, links);
+});
+</script>
+```

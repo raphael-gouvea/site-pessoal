@@ -1,0 +1,15 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!policy.qmd"
+    - "!policy/*.qmd"
+
+website:
+  title: "Raphael Gouvea"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
