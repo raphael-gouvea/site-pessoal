@@ -282,17 +282,60 @@ h3 { font-size: 1rem; }
   border-radius: 4px;
 }
 
-/* Collapse sticky behavior on mobile */
-@media (max-width: 768px) {
-  .about {
-    grid-template-columns: 1fr !important;
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
+/* ── Tablet (≤ 991px): shrink outer margins ── */
+@media (max-width: 991px) {
+  body.fullcontent:not(.floating):not(.docked) .page-columns {
+    grid-template-columns:
+      [screen-start] 2rem
+      [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start]
+      1fr
+      [body-content-end body-end body-end-outset page-end-inset page-end screen-end-inset]
+      2rem [screen-end] !important;
+  }
+}
+
+/* ── Mobile (≤ 767px): stack layout, release sticky, wrap nav ── */
+@media (max-width: 767px) {
+  body.fullcontent:not(.floating):not(.docked) .page-columns {
+    grid-template-columns:
+      [screen-start] 0.75rem
+      [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start]
+      1fr
+      [body-content-end body-end body-end-outset page-end-inset page-end screen-end-inset]
+      0.75rem [screen-end] !important;
   }
 
-  .about-entity {
-    position: relative;
-    height: auto;
-    top: auto;
+  div.quarto-about-trestles {
+    flex-direction: column !important;
+  }
+
+  div.quarto-about-trestles .about-entity {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    position: relative !important;
+    height: auto !important;
+    top: auto !important;
+    padding-bottom: 1.5rem;
+  }
+
+  div.quarto-about-trestles .about-contents {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    min-height: auto !important;
+  }
+
+  .right-col-nav {
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+    font-size: 0.95rem !important;
+  }
+
+  .bio-photo {
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto 1.5rem;
   }
 }
